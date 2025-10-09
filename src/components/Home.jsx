@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className='text-center '>
    
-    <span className='flex flex-row justify-start items-center'>
+    <span className='flex flex-row justify-start items-center '>
  <SiGoogleassistant className='text-[200px] text-blue-600 animate-pulse mx-auto'/>
 
     </span>

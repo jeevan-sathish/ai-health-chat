@@ -5,6 +5,7 @@ import About from './components/About'
 import Test from './components/Test'
   import { Route, Routes } from 'react-router-dom'
 import Footer from './components/Footer'
+import BottomFooter from './components/BottomFooter'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
 
       </div>
       <Footer/>
+      <BottomFooter/>
     </div>
   )
 }
