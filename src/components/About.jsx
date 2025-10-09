@@ -75,7 +75,7 @@ const About = () => {
         data.map((ele)=>(
             <div 
             key={ele.id}
-            className='w-[250px] h-[200px] rounded-[20px] flex flex-col justify-center items-center text-center bg-blue-950 gap-2'
+            className='w-[250px] animate-none h-[200px] rounded-[20px] flex flex-col justify-center items-center text-center bg-blue-950 gap-2'
             >
            <p className='text-[50px]'>{ele.icon}</p> 
            <p> "{ele.title}"</p>
