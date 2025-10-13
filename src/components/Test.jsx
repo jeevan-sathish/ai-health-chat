@@ -11,6 +11,7 @@ import { MdOutlineDelete } from "react-icons/md";
 import CircularIndeterminate from './ui/CircularIndeterminate';
 
 const Test = () => {
+  const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
   const [response, setResponse] = useState('');
   const [loader,setLoader]=useState(false);
 
@@ -37,7 +38,7 @@ const Test = () => {
     console.log(formData)
 
     
-        const genAI = new GoogleGenerativeAI("AIzaSyCXdbwzRDDvi1wkiq3tgcLimcpwA4WSCfM"); 
+        const genAI = new GoogleGenerativeAI(API_KEY); 
         const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" }); 
  
     const prompt = `
@@ -230,7 +231,7 @@ const Test = () => {
             <p className='text-center'>"AI-generated health analysis will appear here."</p>
              <div className='w-full h-16 flex justify-center items-center bg-black '>
 
-          <button className='w-[150px] h-[50px] bg-blue-500 rounded-3xl'
+          <button className='w-[150px] h-[50px] bg-blue-500 rounded-3xl hover:scale-90 transform-transition duration-100'
           onClick={handleSpeech}
           >
           speak</button>
