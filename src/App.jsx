@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div className='w-[100%] auto flex flex-col bg-black'>
       <Nav/>
-      <div className='w-full h-[90vh] text-white flex justify-center items-center flex-col'>
+      <div className='w-full h-auto m-[40px] text-white flex justify-center items-center flex-col'>
       <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/About' element={<About/>}/>

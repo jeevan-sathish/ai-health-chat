@@ -9,8 +9,11 @@ const Footer = () => {
         <span className='flex flex-row gap-2'>
             <h1>Aurora Ai  </h1>
             <SiGoogleassistant className='text-[18px] '/>
-            <p>This is the right agent that can help you to find your helath balances and more</p>
+            <p>This is the right agent that can help you to find your helath balances and more.</p>
+            
+            
         </span>
+        <p className='text-center text-blue-300'>@Copyright 2025 all rights are preserved.</p>
     </div>
     
 
