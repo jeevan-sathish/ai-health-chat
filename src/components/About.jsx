@@ -39,6 +39,7 @@ const About = () => {
     title: "Holistic Well-being",
     description: "Focus on nutrition, mental health, and sustainable healthy habits."
   }
+  
 ]);
 
 
